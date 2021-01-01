@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Admin() {
+function App() {
     return (
         <div>
             React with wordpress running awesome!
@@ -8,4 +8,4 @@ function Admin() {
     )
 }
 
-export default Admin
+export default App
