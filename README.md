@@ -7,7 +7,7 @@
 ```
 <div id="react-js-in-wp"></div>
 ```
-* Write your react component code in the ```components``` folder. Entry point is the file ```App.js```
+* Write your react component code in the ```src/components``` folder. Entry point is the file ```App.js```
 * Run ```npm run build``` - It will constantly watch your code and build a single javascript build file called ```build/index.js```. 
 * Enqueue the ```build/index.js``` file in your WordPress plugin or theme via ```wp_enqueue_script()```
 * Run ```npm run prod``` to make a final minified production build.
