@@ -13,22 +13,23 @@
 	"license": "ISC",
 	"dependencies": {
 		"@babel/polyfill": "^7.0.0",
+		"core-js": "^3.8.2",
 		"isomorphic-fetch": "^2.2.1",
 		"prop-types": "^15.6.2",
 		"react": "^16.5.2",
 		"react-dom": "^16.5.2"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.1.2",
-		"@babel/plugin-proposal-class-properties": "^7.1.0",
-		"@babel/preset-env": "^7.1.0",
-		"@babel/preset-react": "^7.0.0",
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-proposal-class-properties": "^7.12.1",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-react": "^7.12.10",
 		"babel-eslint": "^10.0.1",
-		"babel-loader": "^8.0.4",
+		"babel-loader": "^8.2.2",
 		"eslint": "^5.6.1",
 		"eslint-plugin-import": "^2.14.0",
 		"eslint-plugin-react": "^7.11.1",
-		"webpack": "^4.20.2",
-		"webpack-cli": "^3.1.2"
+		"webpack": "^5.12.3",
+		"webpack-cli": "^4.3.1"
 	}
 }

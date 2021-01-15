@@ -13,7 +13,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'build'),
     },
 
-    devtool: production ? '' : 'source-map',
+    devtool: production ? false : 'source-map',
   
     resolve: {
       extensions: [".js", ".jsx", ".json"],

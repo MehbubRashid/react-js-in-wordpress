@@ -38795,13 +38795,36 @@ if (false) {} else {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Apples__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Apples */ "./src/components/Apples.js");
 
 
-function Admin() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "React with wordpress running awesome!");
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "React with wordpress running awesome!", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Apples__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Admin);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/Apples.js":
+/*!**********************************!*\
+  !*** ./src/components/Apples.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Apples() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "the number of apples is 14");
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Apples);
 
 /***/ }),
 
