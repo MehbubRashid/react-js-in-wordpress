@@ -12,7 +12,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@babel/polyfill": "^7.0.0",
 		"core-js": "^3.8.2",
 		"isomorphic-fetch": "^2.2.1",
 		"prop-types": "^15.6.2",
